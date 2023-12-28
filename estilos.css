@@ -1,29 +1,33 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
-  background-image: url(/img/pagina/ffondo.webp); 
+  background-image: url(img/pagina/ffondo.webp);
 }
-.container{
+
+.container {
   max-width: 1100px;
   margin: 0 auto;
 
 }
+
 .back {
   padding: 32px 0;
-  background-image: url("/img/pagina/banner2.webp");
+  background-image: url("img/pagina/banner2.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .menu {
   position: absolute;
   top: 0;
@@ -54,6 +58,7 @@ body {
   display: block;
   font-weight: 600;
 }
+
 .menu .navbar ul li a:hover {
   color: #ebb409;
 }
@@ -61,39 +66,49 @@ body {
 #menu {
   display: none;
 }
+
 .menu-icono {
   width: 25px;
 }
+
 .menu label {
   cursor: pointer;
   display: none;
 }
+
 .encabezado {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff; /* Color del texto blanco para el encabezado */
-  background-color: #333; /* Color de fondo gris oscuro para el encabezado */
+  color: #fff;
+  /* Color del texto blanco para el encabezado */
+  background-color: #333;
+  /* Color de fondo gris oscuro para el encabezado */
   padding: 20px;
-  margin-bottom: 20px; /* Margen entre el encabezado y los rectángulos */
+  margin-bottom: 20px;
+  /* Margen entre el encabezado y los rectángulos */
 }
 
 .texto {
-  width: 60%; /* Porcentaje del ancho para el texto */
+  width: 60%;
+  /* Porcentaje del ancho para el texto */
 }
 
 .imagen {
-  width: 35%; /* Porcentaje del ancho para la imagen */
+  width: 35%;
+  /* Porcentaje del ancho para la imagen */
 }
 
 .texto h1 {
   margin: 0;
-  font-size: 24px; /* Tamaño fijo para el título */
+  font-size: 24px;
+  /* Tamaño fijo para el título */
 }
 
 .texto p {
   margin: 10px 0;
-  font-size: 16px; /* Tamaño fijo para el texto */
+  font-size: 16px;
+  /* Tamaño fijo para el texto */
 }
 
 .botones {
@@ -111,43 +126,50 @@ button {
 }
 
 .boton-pasivos {
-  background-color: #3498db; /* Color azul */
+  background-color: #3498db;
+  /* Color azul */
   color: #fff;
 }
 
 .boton-neutrales {
-  background-color: #2ecc71; /* Color verde */
+  background-color: #2ecc71;
+  /* Color verde */
   color: #fff;
 }
 
 .boton-hostiles {
-  background-color: #e74c3c; /* Color rojo */
+  background-color: #e74c3c;
+  /* Color rojo */
   color: #fff;
 }
 
 .boton-jefes {
-  background-color: #f39c12; /* Color naranja */
+  background-color: #f39c12;
+  /* Color naranja */
   color: #fff;
 }
-.MobsPasivoss{
-  background-image: url(/img/pagina/tierra.avif);
+
+.MobsPasivoss {
+  background-image: url(img/pagina/tierra.avif);
 }
 
-.MobsPasivoss h1{
+.MobsPasivoss h1 {
   margin: 20px;
 }
-.MobsPasivoss p{
+
+.MobsPasivoss p {
   margin: 20px;
-  color: #fff; 
+  color: #fff;
 }
 
 .contenedor {
-  margin: 10px; 
+  margin: 10px;
   border-radius: 15px;
   overflow: hidden;
   display: flex;
 }
-.mobspasivos img{
+
+.mobspasivos img {
   width: 150px
 }
 
@@ -160,7 +182,7 @@ button {
   padding: 20px;
 }
 
-.mobspasivos p{
+.mobspasivos p {
   margin-top: 0;
   color: #fff;
 }
@@ -169,7 +191,7 @@ button {
   color: #ffffff;
 }
 
-.MobsPasivoss h1{
+.MobsPasivoss h1 {
   color: #971212;
 }
 
@@ -177,25 +199,27 @@ button {
   background-color: #098f26;
 }
 
-.mobsneutraless{
-  background-image: url(/img/pagina/cobblestone.png);
+.mobsneutraless {
+  background-image: url(img/pagina/cobblestone.png);
 }
 
-.mobsneutraless h1{
+.mobsneutraless h1 {
   margin: 20px;
 }
-.mobsneutraless p{
+
+.mobsneutraless p {
   margin: 20px;
-  color: #fff; 
+  color: #fff;
 }
 
 .contenedor {
-  margin: 10px; 
+  margin: 10px;
   border-radius: 15px;
   overflow: hidden;
   display: flex;
 }
-.mobsneutrales img{
+
+.mobsneutrales img {
   width: 150px
 }
 
@@ -208,7 +232,7 @@ button {
   padding: 20px;
 }
 
-.mobsneutrales p{
+.mobsneutrales p {
   margin-top: 0;
   color: #fff;
 }
@@ -217,33 +241,35 @@ button {
   color: #ffffff;
 }
 
-.mobsneutraless h1{
+.mobsneutraless h1 {
   color: #971212;
 }
 
-.mobsneutrales{
+.mobsneutrales {
   background-color: #1b3c9e;
 }
 
-.mobshostiless{
-  background-image: url(/img/pagina/Netherrack.webp);
+.mobshostiless {
+  background-image: url(img/pagina/Netherrack.webp);
 }
 
-.mobshostiless h1{
+.mobshostiless h1 {
   margin: 20px;
 }
-.mobshostiless p{
+
+.mobshostiless p {
   margin: 20px;
-  color: #fff; 
+  color: #fff;
 }
 
 .contenedor {
-  margin: 10px; 
+  margin: 10px;
   border-radius: 15px;
   overflow: hidden;
   display: flex;
 }
-.mobshostiles img{
+
+.mobshostiles img {
   width: 150px
 }
 
@@ -256,7 +282,7 @@ button {
   padding: 20px;
 }
 
-.mobshostiles p{
+.mobshostiles p {
   margin-top: 0;
   color: #fff;
 }
@@ -265,33 +291,35 @@ button {
   color: #ffffff;
 }
 
-.mobshostiless h1{
+.mobshostiless h1 {
   color: #971212;
 }
 
-.mobshostiles{
+.mobshostiles {
   background-color: #cf7112;
 }
 
-.mobsjefess{
-  background-image: url(/img/pagina/obsidiana.png);
+.mobsjefess {
+  background-image: url(img/pagina/obsidiana.png);
 }
 
-.mobsjefess h1{
+.mobsjefess h1 {
   margin: 20px;
 }
-.mobsjefess p{
+
+.mobsjefess p {
   margin: 20px;
-  color: #fff; 
+  color: #fff;
 }
 
 .contenedor {
-  margin: 10px; 
+  margin: 10px;
   border-radius: 15px;
   overflow: hidden;
   display: flex;
 }
-.mobsjefes img{
+
+.mobsjefes img {
   width: 150px
 }
 
@@ -304,7 +332,7 @@ button {
   padding: 20px;
 }
 
-.mobsjefes p{
+.mobsjefes p {
   margin-top: 0;
   color: #fff;
 }
@@ -313,12 +341,76 @@ button {
   color: #ffffff;
 }
 
-.mobsjefess h1{
+.mobsjefess h1 {
   color: #971212;
 }
 
-.mobsjefes{
+.mobsjefes {
   background-color: #3416e2;
 }
 
+@media (max-width:991px) {
+  .menu {
+    padding: 20px;
+  }
 
+  .menu label {
+    display: initial;
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #EBB409;
+    display: none;
+  }
+
+  .menu .navbar ul li a:hover {
+    color: #EB8009;
+  }
+
+
+  menu .navbar ul li {
+    width: 100%;
+  }
+
+  #menu:checked~.navbar {
+    display: initial;
+  }
+
+  .encabezado {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .texto,
+  .imagen {
+    width: 100%;
+  }
+
+  .botones {
+    flex-direction: column;
+  }
+
+  button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contenedor {
+    width: calc(100% - 20px);
+    /* Ajuste para el margen entre los rectángulos */
+    height: auto;
+  }
+
+  .imagen {
+    height: 100%;
+    /* Altura 100% para la imagen en dispositivos móviles */
+    border-radius: 15px;
+    /* Redondear todas las esquinas en dispositivos móviles */
+  }
+
+}
